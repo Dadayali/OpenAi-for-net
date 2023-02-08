@@ -38,7 +38,7 @@ namespace OpenAiController.Controllers
             };
             
             var requestBody = Newtonsoft.Json.JsonConvert.SerializeObject(request);
-            string openAiKey = "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"; // 这儿写你的openai 的key
+            string openAiKey = ""; // 这儿写你的openai 的key  fill in you api key
             //string openAiUrl = "https://api.openai.com/v1/completions";
             string openAiUrl = "https://api.openai.com/v1/completions";
             ResponseInfo result = new ();
